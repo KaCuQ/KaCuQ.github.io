@@ -1,0 +1,71 @@
+/*###############################
+  PASEK KANAŁÓW I PROFILU NA DOLE
+#################################*/
+/* Cały pasek */
+.channels-Ie2l6A
+{
+    background-color: var(--third-color);
+}
+/*## Nazwa serwera i kanały ##*/
+.container-PNkimc
+{
+    background-color: transparent;
+}
+/*# Grupy kanałów #*/
+/* Normalna grupa */
+.nameDefault-2DI02H
+{
+    color: var(--main-text) !important;
+    text-align: center;
+    font-size: 14px;
+}
+/* Normalna grupa po najechaniu myszką */
+.nameHovered-1gxhWH
+{
+    color: ;
+    text-align: center;
+}
+/* Zwinięta grupa */
+.nameCollapsed-34uFWo
+{
+
+}
+/* Zwinięta grupa po najechaniu myszka */
+.nameHoveredCollapsed-2orEWB
+{
+
+}
+/* Wyciszona grupa kanałów */ 
+.nameMuted-1MCOt4
+{
+
+}
+/* Powiadomienia w grupie kanałów */
+.nameUnread-njOjIS
+{
+
+}
+/*# Ikona zwinięcia grupy kanałów */
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .iconMuted-1HVBGH, .iconUnread-2eGkvX
+{}
+/*# Powiadomienie o wiadomościach na kanałach #*/
+.unread-1Dp-OI
+{
+    border-radius: 0;
+    top: 0;
+
+}
+/*## Dolny pasek( Mikrofon,słuchawka ) ##*/
+.container-2Thooq
+{
+    background-color: transparent !important;
+}
+/* MIKRO */
+/*
+.container-2Thooq .horizontal-1ae9ci div button[style$='background-image: url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg");']
+{
+    background-color: black;
+    background-image: none !important;
+
+}
+*/

@@ -1,0 +1,22 @@
+/*######
+  OGÓLNE
+########*/
+/*### Tylnia strona Discorda  ###*/
+#app-mount
+{
+    background-color: var(--third-color);
+}
+
+/* Dymek podczas najechania kursorem */
+.tooltip.tooltip-black
+{
+    background-color: var(--toolpit) !important;
+    color: var(--main-text) !important;
+    opacity: 0.9;
+    border-radius: 2px;
+}
+/* Strzałka obok dymka */
+.tooltip.tooltip-black.tooltip-top:after, .tooltip.tooltip-black.tooltip-bottom:after, .tooltip.tooltip-black.tooltip-right:after, .tooltip.tooltip-black.tooltip-left:after 
+{
+    visibility: hidden;
+}

@@ -1,0 +1,92 @@
+/*###################
+  LEWY PASEK(serwery) 
+#####################*/
+/* Logo Discord */
+.theme-dark .homeIcon-1FoKUJ
+{
+    color: rgba(0, 0, 0, 0);
+    background-image: url("https://i.imgur.com/8x9dXly.png");
+}
+.theme-dark .homeIcon-1FoKUJ:hover
+{
+    background-image: url("https://i.imgur.com/ScGOB2V.png");
+    transition: 600ms;
+}
+/* Ikony gildi */
+.guild-1EfMGQ .guildInner-3DSoA4
+{
+    border-radius: 0 !important;
+    background-color: transparent !important;
+}
+.guild-1EfMGQ
+{
+    background-color: var(--fifth-color);
+}
+.guild-1EfMGQ:hover
+{
+    background-color: var(--second-color);
+    transition: 500ms;
+}
+/* Obrazek w środku gildi */
+.iconSizeLarge-161qtT
+{
+    height: 40px;
+    width: 40px;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+}
+/* Aktualnie wybrana gildia */
+.guild-1EfMGQ.selected-ML3OIq
+{
+    background-color: var(--first-color);
+}
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before
+{
+    visibility: hidden;
+    border-radius: 0;
+    height: 50px;
+    margin-top: 0;
+    top: 0;
+    background-color: var(--first-color);
+}
+/* Powiadomienia w innych gildiach (obok obrazka)*/
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before
+{
+    border-radius: 0;
+    height: 50px;
+    margin-top: 0;
+    top: 0;
+    background-color: var(--second-color);
+}
+/* Ikonka WAŻNYCH powiadomien (na obrazku) */
+.wrapper-232cHJ
+{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border-radius: 0;
+    font-size: 16px;
+}
+/* WAŻNE powiadomienia w innych gildiach */
+.badge-1GsMF2
+{
+    bottom: 0;
+    right: 0;
+}
+/* Jesteś na kanale głos. w tej gildi */
+.guild-1EfMGQ.audio-3vVhBi:after
+{
+    background-color: var(--second-color);
+    border-radius: 0;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://i.imgur.com/JanbAPb.png);
+    background-size: 65%;
+}
+/*## Tło lewego paska ##*/
+.theme-dark .guildsWrapper-5TJh6A
+{
+    background-color: var(--third-color);
+}
