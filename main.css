@@ -1,0 +1,116 @@
+:root
+{
+    
+}
+
+body               
+{
+    background-color: lightskyblue;
+    margin: 0;
+    font-size: 0;
+    height: 2000px;
+    cursor: url(font/Main%20Cursor.cur);
+}    
+
+.main
+{
+    position: absolute;
+    left: 40px;
+    height: 500px;
+    width: 97%;
+    background-color: antiquewhite;
+    font-size: 16px;
+}
+
+.navpan            
+{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+    height: 100vh;
+    width: 3%;
+    min-width: 40px;
+    background-color: blue  ;
+    opacity: 1;
+    transition: 1s;
+}
+
+.navpan-button
+{
+    width: 100%;
+    height: 7vh;
+    min-height: 35px;
+    max-height: 40px;
+    background-color: blue;
+    border: none;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+}
+
+.navpan-button:hover
+{
+    background-color: mediumslateblue;
+}
+
+.navpan-show
+{
+    background-image: url(img/arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.navpan-show:active
+{
+    opacity: 1;
+}
+
+.navpan-home
+{
+    background-image: url(img/home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.navpan-home:active
+{
+    opacity: 1;
+}
+
+.navpan-download
+{
+    background-image: url(img/download.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.navpan-download:active
+{
+    opacity: 1;
+}
+/*.s-navpan
+{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: blue;
+    transition: 0.7s;
+    border: none;
+}
+
+.s-navpan-button
+{
+    top: 100px;
+    width: 15%;
+    height: 7vh;
+    min-height: 35px;
+    max-height: 40px;
+    background-color: blue;
+    border: none;
+} */

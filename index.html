@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>ProjectK</title>
+        <meta charset="UTF-8">
+        <meta name="Robots" content="index">
+        <link rel="stylesheet" type="text/css" href="main.css"a>
+        <script>
+            
+            function openNav() {
+                document.getElementById("myNav").style.left = "150px";
+                
+                var leftNav = document.getElementById("myNav").style.left;
+                /* alert(leftNav); */
+                if (leftNav == "150px") {
+                    document.getElementById("myNavShow").style.backgroundImage = "url(img/arrow_left.png)";
+                }
+            }
+            function closeNav() {
+                document.getElementById("myNav").style.left = "0";
+            }
+            
+        </script>
+</head>
+    <body>
+        <div id="myNav" class="navpan">
+            <button id="myNavShow" href="#" class="navpan-button navpan-show" onclick="openNav()">
+            </button> /* Przełącznik panelu nawigacyjnego */
+            
+            <button href="#" class="navpan-button navpan-home">
+            </button> /* Strona główna */
+            
+            <button href="#" class="navpan-button navpan-download">
+            </button> /* Strona z pobieraniem */
+        </div>
+        
+        <div class="main">
+        <button class="button button1">First</button>
+        <button class="button button1">Second</button>
+        hello .
+        
+        
+        </div>
+    </body>
+</html>
